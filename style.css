@@ -1,0 +1,44 @@
+* {
+    margin:0%
+}
+
+#hero-banner {
+    height: 95vh;
+    background-image: linear-gradient(rgb(5, 83, 252),rgb(193, 192, 255));
+    background-image: url("Alico.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #cccccc;
+    margin: 10px; 
+}
+
+nav {
+    display: flex;
+
+}
+
+ul {
+    flex-flow: row;
+}
+
+#banner-text {
+    color: white;
+    text-align: center;
+    padding-top: 1em;
+    
+}
+
+h1 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 62px;
+}
+
+h2 {
+    
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
