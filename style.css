@@ -11,16 +11,25 @@
     background-repeat: no-repeat;
     background-color: #cccccc;
     margin: 10px; 
+    border: solid 1px;
 }
 
-nav {
+#navbar {
     display: flex;
-
+    color:white;
+    opacity: transparent;
+    background-color: rgba(0, 0, 0, .1);
+    
 }
 
-ul {
+li {
     flex-flow: row;
+    text-decoration: none;
+    list-style-type: none;
+    padding: 10px;
+text-align: center;
 }
+
 
 #banner-text {
     color: white;
@@ -34,11 +43,21 @@ h1 {
     font-size: 62px;
 }
 
-h2 {
-    
+h3 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 48px;
+    padding: 10px;
 }
 
 p {
     font-family: 'Roboto', sans-serif;
+    padding: 15px;
 }
 
+.section {
+    background-color: rgb(86, 167, 214);
+    background: linear-gradient(rgb(86, 167, 214), white);
+    margin: 0px 10px 30px ;
+    border: solid rgb(221, 218, 218) 1px;
+    box-shadow: 5px 10px #888888;
+}
